@@ -1,0 +1,22 @@
+recipe: default.v1
+language: en
+
+pipeline:
+- name: WhitespaceTokenizer
+- name: ConveRTFeaturizer
+  model_url: https://github.com/davidalami/ConveRT/releases/download/1.0/nocontext_tf_model.tar.gz
+- name: CountVectorsFeaturizer
+- name: CountVectorsFeaturizer
+  analyzer: char_wb
+  min_ngram: 1
+  max_ngram: 4
+- name: RegexFeaturizer
+- name: LexicalSyntacticFeaturizer
+- name: DIETClassifier
+  epochs: 60
+  scale_loss: False
+  connection_density: 0.7
+  transformer_size: 512
+  BILOU_flag: True
+
+policies:
