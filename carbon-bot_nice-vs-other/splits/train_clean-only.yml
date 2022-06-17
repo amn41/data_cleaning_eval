@@ -1,0 +1,1185 @@
+version: "3.1"
+nlu:
+- intent: inform
+  examples: |
+    - Seattle. And from there to Madrid
+    - I'm travelling from New York to Sydney
+    - heathrow airport
+    - mazatlan, mexico
+    - ok, so I'll fly from Seattle to Madrid
+    - NewYork
+    - El Paso
+    - frankfurt germanh
+    - Munich
+    - Santiago de chile
+    - we take economy class
+    - Gatwick
+    - Arlington
+    - Columbus
+    - Tampa
+    - Indianapolis
+    - Greensboro
+    - newyork
+    - berlin
+    - Business class
+    - Portland
+    - Palese
+    - SYDNEY
+    - Austin
+    - Aspen
+    - CHICAGO
+    - Berlin SXF
+    - Oklahoma City
+    - Berlin Schoenefeld
+    - Chile
+    - Memphis
+    - singapore
+    - I would like to depart from Boston
+    - london
+    - Shanghai
+    - Cape Town
+    - From Berlin
+    - Lincoln
+    - Singapore
+    - Rome
+    - Saint Paul
+    - What if I want to fly to Miami
+    - from Rome
+    - ok, I’m going to Los Angeles
+    - Yes. I'll fly from Seattle to Madrid
+    - my brother and his kids are coming to see me
+    - Right, and I'm flying from Tel Aviv to NYC
+    - Israel
+    - going to Vancouver from Pittsburgh
+    - Palm Springs.
+    - no first class
+    - no i would travel in business class
+    - ny
+    - NEW YORK
+    - LHR
+    - my folks and I are going to our cabin in ohio
+    - min Business class
+    - Nashville
+    - oakland
+    - Dallas
+    - la to boston
+    - I'll be flying from Berlin
+    - yes, I'm flying from Berlin to Duesseldorf
+    - Burlington vT
+    - London Gatwick
+    - New York.
+    - my grandparents are from texas so I'm heading there like every year
+    - Yes, I will be traveling in Economy Class.
+    - Jacksonville
+    - raleigh, nc
+    - ok fine im flying from st louis
+    - I depart in Berlin
+    - A flight from Pittsburgh to Detroit?
+    - Athens
+    - Charlotte
+    - To SFO
+    - Chicago
+    - I want to go from Amsterdam to Paris.
+    - Santa Fe
+    - los angeles, ca
+    - I will be leaving from Boston, MA
+    - San Jose
+    - san fran
+    - heraklion
+    - Ahmedabad
+    - Chula Vista
+    - Boston.
+    - gonna see my aunt and uncle in texas
+    - Anchorage
+    - I said I'm going to Boston
+    - Long Beach
+    - Berlin Tegal to krakow
+    - London Heathrow
+    - London, gatwick
+    - Delhi
+    - I'm traveling to CHICAGO
+    - how about one of the airports around nyc
+    - louisville
+    - Shedang boi I'm first class
+    - kansas
+    - Toronto
+    - from Berlin
+    - boston
+    - boston to new york
+    - Schonefeld
+    - taipei
+    - Riverside
+    - my journey starts in Moscow
+    - to Bangalore
+    - Denver
+    - seattle
+    - from London to Sydney
+    - new delhi
+    - BOSTON
+    - To Paris
+    - Monterrey
+    - From FCO
+    - Stockholm
+    - To Seattle
+    - Atlanta
+    - New York
+    - Yes, I'd like information on a flight from Boston to New York
+    - okay, i will fly to New York City
+    - Mesa
+    - I'm flying business actually
+    - Las Vegas
+    - From Berlin to SFO
+    - Miami
+    - Vilnius
+    - torino caselle
+    - leave from Chicago
+    - yes, economy class
+    - To London
+    - Bogotá
+    - tampa
+    - from Berlin to New York
+    - Henderson
+    - Kiev
+    - Yes, Economy Class.
+    - I'm traveling to Boston
+    - to London
+    - Medford, MA to Nashua, NH
+    - Abu Dhabi
+    - LAX
+    - Bombay
+    - I have relatives in michigan I will see them
+    - Düsseldorf
+    - Kansas City
+    - china
+    - Mexico City
+    - chicago ohare to nashville
+    - round trip flight Santa Fe nm to Burlington vt
+    - michigan
+    - Minneapolis
+    - San Antonio
+    - Melbourne
+    - Savannah
+    - auckland
+    - frankfurt, germany
+    - How about from Boston to New York?
+    - no I'll be flying from Berlin to London
+    - Raleigh NC
+    - hawaii
+    - I'm heading to Berlin
+    - First class
+    - from boston
+    - London, Gatwick airport
+    - I'll depart in Berlin
+    - Palawan
+    - Hong Kong
+    - Ny
+    - How about berlin to Munich?
+    - new york city
+    - Los Angele
+    - Buenos Aires
+    - yes. i am flying from Boston to New York in economy class
+    - From New York
+    - to Gatwick
+    - To New York
+    - chicago
+    - i depart in Berlin
+    - Tucson
+    - Detroit
+    - Wichita
+    - Corvallis
+    - i don't know, somewhere nice in florida
+    - From Rome to London
+    - what is the footprint from lax to clt?
+    - probably Leipzig
+    - i'm flying from seattle
+    - I'll fly economy
+    - Pittsburgh to Dubai
+    - dallas
+    - Hello I would like to fly to boston to visit famil.y
+    - Metro Manila
+    - Fort Wayne
+    - Yes, Economy class
+    - los Angeles to charlotte
+    - Durham
+    - Milwaukee
+    - Chantilly
+    - I'm flying from Boston to New York.
+    - Kansas City Missouri
+    - No.  Business class.
+    - Milpitas
+    - Maybe to oslo
+    - hong kong
+    - from London to Paris
+    - Jersey City
+    - Texas
+    - Cairo
+    - Caselle Turin, Italy
+    - Nairobi
+    - I'll be flying from Berlin to San Francisco, taking the bus afterwards to Dunedin.
+    - Aurora
+    - First Class
+    - Probably the United States
+    - Orlando
+    - Cincinnati
+    - that'll be business class
+    - I'm going to Berlin
+    - Philadelphia
+    - san francisco
+    - going to Houston TX
+    - heading to SFO
+    - San Jose, costa rica
+    - To london
+    - Anchorage AK
+    - MTY
+    - san diego
+    - from London
+    - Yep how much is a flight from berlin to new york?
+    - Paris
+    - to Heathrow
+    - bogota colombia
+    - Kyiv
+    - I need a flight to New York
+    - Laredo
+    - detroit
+    - alberquerque nm
+    - San francisco
+    - I am flying to Detroit
+    - no, business class
+    - Dortmund
+    - I want to fly to NY
+    - Frankfurt. In Germany
+    - stockholm
+    - Stockton
+    - Hanoi, Vietnam
+    - Houston
+    - Beijing
+    - Berlin
+    - Im flying To NY
+    - Sydney to London Singapore
+    - NEw york
+    - I'm taking my family on a trip to Las Vegas
+    - JFK
+    - Sevilla
+    - back to Chicago
+    - Heathrow
+    - Luton
+    - Ontario
+    - BOSTON damn it!
+    - Toledo
+    - Palestine?
+    - I'll take premium economy
+    - The same
+    - Scottsdale
+    - Prague
+    - Jfk
+    - Milford UT
+    - Paris, France
+    - Boston to Rome round-trip
+    - chicago to nashville flight
+    - Anaheim
+    - Berlin Tegel
+    - to Paris
+    - Seattle.
+    - What if i'm in first class?
+    - phoenix
+    - Oakland
+    - Maybe to Romę
+    - Pittsburgh to Rio de Janerio
+    - Portland Oregon
+    - Boston
+    - Cleveland
+    - Milan
+    - florida
+    - as I said, Boston to Rome round trip
+    - tunis
+    - delhi
+    - Los Angeles
+    - Charlotte, nc
+    - Departure NYC
+    - What about Paris Berlin
+    - sea
+    - to Copenhagen
+    - charlotte
+    - fly from BOSTON
+    - i'm going to new york
+    - frankfurt
+    - Honolulu
+    - albuquerque
+    - Newark
+    - Bogota
+    - Los Angeles, Ca to charlotte, nc
+    - paris
+    - Frankfurt
+    - The new york city
+    - alberquerque
+    - going to new york to see family
+    - My conference is in Berlin, and I am flying in from Stockholm
+    - Cebu City
+    - yes I'm going from Chicago to EWR
+    - i fly out from Madrid
+    - from Rome to London
+    - and from Seattle to Dallas?
+    - I'll fly from seattle
+    - New Orleans
+    - I am going home to Detroit
+    - I want to leave from Boston
+    - Auckland
+    - Corpus Christi
+    - 8 Rivers edge dr
+    - I will be flying to NYC, NY
+    - from New York to London
+    - destination vermont
+    - I'll be flying to Frankfurt
+    - i want to go from san francisco to los angeles
+    - st louis mo
+    - I want to go from boston to new york
+    - St. Louis
+    - moscow
+    - economy class
+    - denver
+    - Berlin to London
+    - Tel Aviv Israel
+    - Lexington
+    - Turin, Italy
+    - Montréal
+    - Tulsa
+    - Uk
+    - I just need an economy ticket.
+    - Los Angels
+    - Nyc
+    - London
+    - Little Rock AR
+    - Omaha
+    - Yes! I am planning to fly from Boston to New York. I would like to fly Economy Class.
+    - Sydney, Australia
+    - Hyderabad, india
+    - tokyo
+    - tunis , tunisia
+    - To Madrid
+    - Fresno
+    - What about from Paris to Berlin?
+    - I don't know any other way to describe the city Tel Aviv
+    - no I am heading out in first class
+    - Fort Worth
+    - Phoenix
+    - I'm flying from TXL to Beijing
+    - My conference is in New York, and I am coming from San Francisco
+    - I fly with economy class
+    - From Bangalore
+    - from Berlin to London
+    - sure, I'll fly business class though
+    - LA
+    - i'm flying to california
+    - I'm going from Boston to LA
+    - New York City
+    - Poland
+    - I'm sorry. I would like to travel to New York from Boston.
+    - Saint Louis
+    - I'll be flying from Seattle
+    - Raleigh
+    - California
+    - Anchorage Alaska
+    - Cleveland Ohio
+    - I'll go and see my parents in Arizona
+    - Louisville
+    - As I said before, Austin
+    - nyc
+    - flight from chicago to nashville
+    - Glasgow
+    - TEL AVIV
+    - Yes, I am flying from Berlin to Detroit.
+    - Bari palese
+    - Wien
+    - Boston to New York
+    - I am flying from Boston.
+    - thinking about flying from dallas
+    - Economy class
+    - new york
+    - Berlin Schonefeld
+    - San Diego
+    - La Guardia
+- intent: inform_notunderstanding
+  examples: |
+    - That's not an answer to my question...
+    - you already gave me that
+    - again, you just said that
+    - that's not what I said
+    - do you know what your saying?
+    - I already answered that
+    - that isn't what I meant
+    - I really dont see how this is helping me
+    - you just said that
+    - you're not getting me
+    - That does not answer my question.
+    - that didn’t give me an answer?
+    - I said yes!?
+    - Are you here
+    - Are you there?
+    - aha, good to know, but not what I asked.
+    - so why can't you answer my questions
+    - I already told you
+    - are you just giving random responses>
+    - I've already said that
+    - ARE YOU THERE
+- intent: faq
+  examples: |
+    - What if I go by car.
+    - how does that compare to driving an SUV?
+    - so no one is making profit  off of me?
+    - so everything I write is gonna be read by a bunch of researchers?
+    - Is CO2 harmful?
+    - Climate change is a hoax.
+    - Are you sure it's not a scam?
+    - Buying carbon oddsets for a Christmas oresent
+    - Why does climate change matter?
+    - That didn't answer my question. I'm doubtful the money will be used wisely
+    - I do not think companies that create the problem should get rich while I go broke
+    - mmmm, that is only for flights. I was hoping you could also help me out with car rides.
+    - Then where does that money go?
+    - how much does one cost?
+    - who gets that cash?
+    - How do I know where the money goes?
+    - Why do I need to pay to offset the CO2?
+    - How can I ensure the money isn't wasted or abused or corrupted
+    - how do I purchase carbon credits to offset my flights in 2019?
+    - how many trees would one need to plant to offset the one years worth of carbon production?
+    - Sadly, most of what is presented as "Green" isn't and does more harm than good, like Solar and Ethanol
+    - What is the money used for?
+    - Where exactly does the money go?
+    - No, I heard it is all a hoax
+    - what produces CO2?
+    - ok. Who gets the money?
+    - what a gigantic scam this is
+    - You do know that global warming is bullshit right
+    - Can I choose the recipient of the certificate?
+    - How much is the cost
+    - Who does my money go to?
+    - Is this legit
+    - is this real?
+    - What is the money paid used for?
+    - How much it cost
+    - is this legitimate?
+    - Knock it off you posers. What a scam.
+    - how much would it cost?
+    - where does the money go?
+    - In a pickup truck is all I own oh I have a bicycle
+    - what's the business model here?
+    - How can I reduce CO2 emissions?
+    - How the money collected from carbon offsets will be spent ?
+    - yea but where will my money go?
+    - What is the overall budget?
+    - i dont know where my money would go to
+    - What are the most important sources of greenhouse gas emissions?
+    - Isn't it just a big scam
+    - Not at all worried about climate Nazified assholes who promote this shit, at war with them, want them to die immediately.
+    - and who are your creators?
+    - Are you human?
+    - who do you work for?
+    - So if I give you money its ok to destroy the climate, is that right
+    - Will my money go directly to offset those carbons?
+    - You have got to be kidding about a false story like this. Carbon footprint and this climate change is the largest joke to man kind ever.
+    - do you make money off this
+    - I would like to know where the money goes.
+    - Gorebal Warming is Fraud!
+    - so do you get a cut when I buy these?
+    - Cost
+    - where does my money go?
+    - I don't know why this assinine ad came up on my page but you're smoking some good stuff if you think for one second I'd give you a dime to offset anything that has to do with this hoax called climate change 😂🤣
+    - You're a human, right?
+    - is that really legit ?
+    - how much does a carbon offset cost?
+    - What percentage of travelers make this purchase?
+    - Is it genuine?
+    - connecting
+    - am i taking to bot
+    - Why is it called "greenhouse"?
+    - I want to pay the money from paypal
+    - Climate change is a HOAX !
+    - And who gets the money ???
+    - Where does the money go for carbon ofsetting?
+    - what is global warming?
+    - I'm obviously talking to a computer
+    - who gets the moeny
+    - Would it be better if I went by car?
+    - what's the best way for me to reduce my carbon footprint?
+    - CO2 PRICES SHOULD GO DOWN AYE?
+    - How much does it cost?
+    - What data will be collected from me?
+    - What is so bad about greenhouse gas?
+    - Reported this scam
+    - this is a scam
+    - Who sponsored carbon offset?
+    - #ClimateChangeHoax .... it's a HOAX people
+    - Show me where the money goes.
+    - can I trust this website?
+    - is it better if I drive?
+    - Can you debate the most common misconceptions about climate change?
+    - How can I know that the money is actually going to these examples.
+    - where the money goes
+    - What emits CO2?
+    - where does the money go
+    - who gets the money?
+    - another scam started by carbon credits??????
+    - looking for carbon offset price
+    - How do I know that the money actual goes to the project?
+    - Where does the money go?
+    - What if I don't believe that humans had that big of an impact from carbon emissions
+    - Am I chatting with a human?
+    - How gets the money from the purchases?
+    - What are the most common misconceptions about climate change?
+    - what is today's Bangalore CO2 emission?
+    - No, I just wanted to tell you to stay the fuck off my feed you ignorant fuck. Climate change is a hoax , and your suggestion that I can BUY SOMETHING to offset my fossil fuel use proves it. EAT SHIT AND DIE!!!!
+    - What is my carbon footprint
+    - where does this money goes
+    - where can I lean more about climate change?
+    - who's behind this?
+    - Am I talking to a bot?
+    - Could you help with alternative carbon neutral options?
+    - I AM A TOUR GUIDE AND NEED TO GET BACK TO MY CAR
+    - Will I own the CERs after my purchase has been completed?
+    - How do I know that my money actually goes to them?
+    - I'd like to know what I can do to reduce my carbon footprint.
+    - What will be the cost of carbon offsets ?
+    - So is this legit ?
+    - Who am I talking to?
+    - do a lot of people buy carbon offsets?
+- intent: inquire-ask_clarification
+  examples: |
+    - Seriously?!
+    - How???
+    - Why would I?
+    - what project ?
+    - what?
+    - Fine. What?
+    - lol what?
+    - Huh?
+    - really
+    - ?
+    - why?
+    - how is that ?
+    - Like what?
+    - what is it?
+    - Recently?
+    - with what?
+    - Mhm?
+    - I want to learn how
+- intent: farewell
+  examples: |
+    - I need a donate but I'll do it when I get a little bit more head of money you have a good day
+    - goodbye have a nice day
+    - good bye
+    - no. terminate.
+    - Goodbye
+    - I said goodbye!
+    - bye
+    - ok goodbye then
+    - bye then
+    - See you later alligator
+    - Ciao.
+    - Discontinue my name. Thank you.
+    - adios
+    - OK goodbye
+    - bye!
+    - Unsubscribe
+    - Leave
+    - allright then. thank you and goodbye
+    - STOP
+    - end
+    - bye for now
+    - please stop
+    - ok, bye
+    - Good bye
+    - bye-bye
+    - ok bye
+    - Bye
+    - Bye!
+    - thank you, bye
+    - good bye for now
+    - Well....goodbye.
+- intent: why
+  examples: |
+    - what's it matter?
+    - why would i be interested in that?
+    - ok, why should I do that?
+    - for what reason?
+    - why
+    - i dont believe it would really make a difference
+    - is it really important
+    - how does that make a difference
+    - why should I pay?
+    - what difference does that make
+    - Why do you ask?
+    - what are you asking that for
+    - I don't see how that's relevant
+    - Why does it matter?
+    - why is that relevant info
+    - what difference does it make
+    - why is there a difference?
+    - why does that matter?
+    - why are you asking that
+    - what for
+    - how is that important
+    - what's the difference
+    - why are you asking that?
+    - why should I?
+    - why should I be interested in that?
+    - why should I do that?
+    - what for?
+- intent: inquire-ask_clarification-offsets
+  examples: |
+    - how does it work?
+    - but why does it reduce the carbon emissions
+    - How can paying money to offset help?
+    - tell me why offsets are worth it
+    - How much of an impact can offsets have on the environment?
+    - how do the offsets work?
+    - how do the carbon offsets work?
+    - offset
+    - Will these offsets capture 100% of Co2?
+    - how offsets work
+    - How can I be sure my purchase will offset carbons?
+    - What is the working principle
+    - does it really help?
+    - No. I'm not quite sold on the idea. How do they work?
+    - So what benefit is thee in buying carbon offsets?
+    - How can I be sure the offsets will be successful?
+    - how do offsets work
+    - How offsets works usually ?
+    - i dont understand how the flight offsets work but im interested
+    - What do they do with the offsets
+    - Do I really need to get offset?
+    - How does offset work?
+    - How do the offsets work?
+    - Do the offsets actually do anything?
+    - What exactly are offsets?
+    - how does it even work?
+    - what do offsets do?
+    - Info on carbon credits
+    - What are certified emission reductions or CERs?
+    - so tell me about c02
+    - are offsets better than not flying?
+    - What does offset do?
+    - how do offsets workr
+    - Yeah but I'm skeptical. How do offsets work, anyway?
+    - Yes but how does it work?
+    - Do you know about the carbon offsets?
+    - What is the advantage of buying these offsets?
+    - How can offsets help the environment?
+    - I repeat - carbon offsets will not affect climate. !
+    - how exactly do carbon offsets even work?
+    - Do offsets really work?
+    - I don't fly, but I'm curious about carbon offsets ?
+    - Tell me how the offsets work
+    - No. I am not interested buying Carbon offsets. What is carbon offsets ?
+    - tell me more about offsets
+    - what is the point of carbon offsets
+    - What does buying offsets do?
+    - what does "offset" mean?
+    - How does this work?
+    - How does planting trees help?
+    - Does this actually work?
+    - do offsets really work?
+    - how do offsets work?
+    - how it will work?
+    - why buy offsets at all?
+    - Maybe. How does a carbon offset actually help the environment?
+    - can you explain to me how carbon offsets work?
+    - how do they work
+    - hmm but does that actually cancel out the carbon?
+    - Tell me about carbon offsets.
+    - what are they?
+    - how do carbon offsets work?
+    - What is the purpose of carbon offset?
+    - carbon offset
+    - carbon offsets aren't real
+    - how does the offset work
+    - Does it help the environment?
+    - Do offsets work?
+    - sure i guess. First can you tell me some more about carbon offsets?
+    - I try again :  by how many degrees C  or  F will carbon offsets reduce global temperature ?
+    - How do they work?
+    - Can you tell me anything else about the offsets?
+    - how does it work
+    - so does that mean there is no pollution?
+    - what kind of offsets?
+    - offsets don't really work
+    - So if I buy the offset the plane will put out less pollution?
+    - What exactly is an UN-certified carbon offset?
+    - How do these offsets work?
+    - but can you explain what carbon offsets are
+    - How do offsets work?
+    - Are carbon offsets actually useful?
+- intent: affirm
+  examples: |
+    - yea
+    - Yes, I did
+    - of course
+    - _YES_!
+    - yes please!
+    - Yes, I am
+    - ok, then yes let's do it!
+    - i think so
+    - yes sounds great
+    - suer
+    - Yes, please
+    - Yes pls
+    - Yes, I am interested
+    - sounds great
+    - yup
+    - That would be cool
+    - i'd say so
+    - Sure. Let's find out for sure.
+    - Correct
+    - that would be great
+    - yah
+    - I'd like to do that
+    - yes, of course!
+    - Sounds like a good plan.
+    - Sure
+    - Yes pleasea
+    - I think yes
+    - yes, please
+    - That sounds great.
+    - yes that's right
+    - yes, sounds good
+    - Yes
+    - sure thing
+    - Sounds Great!
+    - yes, that sounds great
+    - sure
+    - sounds good. thanks
+    - Ya sound good
+    - Yeah that sounds good.
+    - Yes, Schiphol
+    - ok, let’s do that
+    - ok, let's do that!
+    - yea that sounds good
+    - yes, why not
+    - Thought so
+    - that sounds good to me
+    - yea, I'm broke
+    - yes,sound is good
+    - yes please
+    - as i've said, yes
+    - Yes.
+    - that sounds good
+    - Yep
+    - sounds good
+    - yes interested
+    - sounds good to me
+    - Okay. done
+    - Sounds good!
+    - correct
+    - ok, then let's do that.
+    - I think that's all.
+    - fine let's do that
+    - Sounds fantastic
+    - YES!
+    - Perfect, that's my exact route.
+    - Of course
+    - yes!!
+    - ok let's do that
+    - without a doubt
+    - YES
+    - Sure.
+    - yes perfect
+    - Sounds good.
+    - Yeah sounds great
+    - yes!
+    - Yes!
+    - Sounds good
+    - i think so yea
+    - yes let's do that
+    - That makes sense
+    - yep
+    - those sound good to me. i'll buy one of them
+    - Oh yes
+    - YESSS
+    - yes it is
+    - yes
+    - yeah sure
+    - okay sound interesting
+    - **YES**
+    - yes.. go on
+    - Yes I would love that
+    - *YES*
+    - I think so
+    - yes.
+    - Yeah sounds good
+    - Ok, let's do that.
+    - yep!
+    - oh yea that would be great
+    - Yep.
+    - yes definitely
+    - Yes, I would like that
+    - yes, that sounds good
+    - Sure go ahead
+- intent: deny
+  examples: |
+    - No thank you
+    - no, i want you to buy it
+    - No
+    - Nahhh
+    - no, I won't
+    - no, thanks
+    - No, not really
+    - no
+    - no way
+    - no thanks, i'm good
+    - NO
+    - nah I'm good
+    - no thanks!
+    - No.
+    - nope
+    - nothing, really
+    - nah
+    - No, I did not learning anything
+    - ugh no
+    - No thanks
+    - nah thanks
+    - not really
+    - ugh no thank you
+    - Nah, thanks.
+    - never
+    - No!
+    - no i cant
+    - Not at the moment
+    - No, thanks.
+    - no!
+- intent: insult
+  examples: |
+    - why do you suck
+    - o hate you
+    - you suck ballz
+    - Fuck you
+    - fuk u
+    - i hate you
+    - Bernie madoff son of a bitch
+    - shithead
+    - you suck
+    - shit eating scum
+    - u suk
+    - Fuck you very much🤭
+    - Get off my phone you crooked fucking idiots
+    - Get off my phone you crooked fucking bitch
+    - I said fuck off
+    - fuck off robot
+    - Get ur nasties offy phone.
+    - fuck you
+    - fuck off you crooked bastard
+    - fuck this
+    - Slut
+    - Bend over bitch
+    - So double fuck off thief
+    - this is shit
+    - why do you suck so much?
+    - Stoned damn fools.
+    - Fuck you you piece of shit
+    - Bitch
+- intent: express_surprise
+  examples: |
+    - I don't wanna believe that
+    - I don't believe you
+    - Wow thats a lot!
+    - huh
+    - Uh, that much? How can that be? I thought S-Bahn travelmode runs on electricity.
+    - Wow
+    - Wow!
+    - that's hard to believe
+    - I don't believe that!
+    - wow!
+    - what if I don't want to believe that?
+    - how can it be so much?
+    - damn
+    - O
+    - I find that hard to believe
+    - oh
+    - damn!
+    - interesting!
+    - aha
+    - wtf
+    - wow, is it much?
+- intent: express_positive-emo
+  examples: |
+    - Very cool. I will check it out.
+    - you are superb
+    - wonderful
+    - fantastic
+    - That is neat.
+    - Very cool. Thank you!
+    - Cool
+    - cool beans
+    - cool cool
+    - :)
+    - :-)
+    - you are fantastic
+    - Soo cool!
+    - 👌
+    - you are good
+    - You are superb
+    - You are good
+    - nice
+    - you are ok
+    - haha, nice :)
+    - thats cool
+    - Awesome!
+- intent: greet
+  examples: |
+    - hola
+    - hEllo
+    - hai
+    - Good Morning
+    - good morning
+    - hey yo
+    - Hello!
+    - Hey dude
+    - Good afternoon.
+    - hiyy
+    - Hello?
+    - hi there
+    - hi there carbon
+    - Good morning
+    - hello?
+    - Hello robot!v
+    - ahoy
+    - good evening
+    - yo!
+    - okay hi
+    - Hello.
+    - hello!
+    - Hi my name is Eric
+    - oh uh hi
+    - howdy
+    - heyo
+    - hii
+    - Hey there
+    - hi
+    - hi bot
+    - Hey
+    - hello
+    - Hi bot
+    - hello]
+    - hoi
+    - hey you
+    - Hi Alan
+    - Heyo
+    - HI
+    - HELLO
+    - hiya
+    - ola amigo
+- intent: how_calculated
+  examples: |
+    - where did you get that number from
+    - what is that based on?
+    - what's that calculation based on?
+    - whats the math behind that?
+    - what goes into that number?
+    - who did that calculation?
+    - how do you get to that answer?
+    - how was that calculated?
+    - Can you find out is that is real number
+    - Could you tell me how business class emissions are calculated?
+    - How do flight emissions get calculated?
+    - how is that calculated
+    - How is business class emission calculated?
+    - How do you know how much this emits?
+    - how did you come up with that?
+    - how did you calculate that?
+    - How do you calculate this
+    - how did you come up with that numbers?
+    - how do you calculate that?
+- intent: vulgar
+  examples: |
+    - Your mom does
+    - Cum eater
+    - Oh Baby My Big COCK is deeply rooted in your hot pussy Please I love 💘 you
+    - Does your dad still fuck you
+    - Cunts
+    - In the ass
+    - My balls kinda itch too
+    - You wanna scratch my cock ?
+    - So does your sister
+    - I'll donate 1 stiff dick in your ass
+    - Quit fucking your mom
+    - Does your dad still have sex with your sister
+    - Cum sucker
+    - Yo mama did
+    - My penis still itches
+    - I just farted can you tell me about the admissions coming out of my buttbecause I don't want to make too much of a carbon footprint print coming out of my butt
+    - Do you suck cock
+    - How about your sister
+    - Ever lick a butthole?
+    - I mean it doesn't have to be a guys butthole right? So it's not inherently gay, but if it is a guys butthole "no homo" rule does apply
+    - Does she suck cock
+    - In your mama's ass
+    - Cunt
+    - In your moms ass
+    - When they fart
+- intent: thank
+  examples: |
+    - Thank you for instrction
+    - Thank you, you are a good bot!
+    - Great, thanks!
+    - Ok thanks
+    - awesome, thanks!
+    - Thank you
+    - I will do that, thank you!
+    - great thanks!
+    - ok thanks
+    - Thanks
+    - thank you
+    - good bot
+    - Okay thank you
+    - thank you so much
+    - many thanks
+    - Thank you.
+    - Thanks!
+    - cheers!
+    - Thank You
+    - thank you for the info
+    - ok thank you
+    - cheers thanks
+    - Thats great thank you
+    - Thank you very much for your help.
+    - thank you for your time
+    - thanks for that
+    - Thank you!
+    - thx
+    - Perfect, thanks
+    - thanks I'll read that
+    - thanks
+    - okay thanks for helping
+    - ok, thanks
+    - Thank you for the information.
+- intent: express_negative-emo
+  examples: |
+    - You are not very helpful.
+    - you are unsophisticated
+    - you were not helpful
+    - ;/
+    - You are mediocre
+    - Sounds bad
+    - I don't give a crap
+    - sad
+    - you are dumb
+    - you are not nice
+    - you are mediocre
+    - :/
+    - Then Rasa is not very helpful.
+    - You haven't helped _me_ yet
+- intent: estimate_emissions
+  examples: |
+    - Give me a number
+    - what is my offset
+    - calculate
+    - greenhouse gas calculation
+    - how much CO2 will that use?
+    - Can you tell me about the effects on the environment this flight will have?
+    - how much carbon does a flight from düsseldorf to new york emit
+    - how much carbon will a one way flight from new york to california produce
+    - how many pounds of carbon for a flight ?
+    - what's the damage of a red-eye flight
+    - How do I offset 100000 miles
+    - trip calculator
+    - ok how much carbon does a flight create?
+    - hoe many pounds of carbon for a flight
+    - ok calculate again
+    - Sure, but can you calculate it for me? I have another flight.
+    - my flight CO2
+- intent: restart
+  examples: |
+    - start again
+    - lets start fresh
+    - get started
+    - restart
+    - let's start over
+    - Restart
+    - Start
+    - Let’s start over
+    - That's ok, can we start over?
+    - start
+    - can we start again please
+    - let's go back to the start
+    - Let's begin
+    - back to the beginning
+- intent: SCENARIO
+  examples: |
+    - hello christmas
+    - Thankgiving
+    - thanksgiving
+    - Thanksgiving
+    - Merry Christmas.
+    - THanksgiving
+- intent: express_uncertainty
+  examples: |
+    - sorta
+    - I'm not so sure
+    - is it really true?
+    - don't know. you tell me
+    - Not sure yet
+    - maybe
+    - mostly
+    - i guess
+    - kinda sorta
+    - i am not sure
+    - not sure
+    - I'm not too sure
+    - sort of
+    - well, that is a very good question - I don't know
+    - i don't know
+    - I HAVE NO IDEA
+    - Somewhat
+    - probably
+    - more or less
+    - I guess that's a good thing?
+    - Sort of
+    - I'm not sure
+    - possibly
+    - i do not know
+    - hmm Im not sure. Can you tell me more?
+- intent: buy_offsets
+  examples: |
+    - ok, so where do I buy these offsets?
+    - Ok, lets go ahead and buy some offsets
+    - Okay. Can I buy offsets then?
+    - I want to buy offsets
+    - i would love to buy offsets yes
+    - how to buy offsets
+    - I wanna purchase
+    - ok so can I buy offsets?
+    - ok let's buy some offsets
+    - I want to buy offsets!
+    - ok lets buy some offsets
+    - Buy Offsets
+    - buy offsets
+    - Where can I buy offsets?
+    - purchase offsets
+    - ok i want to buy some
+    - ok I want to buy some
+    - I will go buy some.
+    - how much I can buy
+- intent: help
+  examples: |
+    - I don't understand
+    - please help here
+    - Can you help me please
+    - Can you help me?
+    - i do not understand
+    - Help
+- intent: deny_flying
+  examples: |
+    - no I'm not going anywhere for thanksgiving
+    - NO FLIGHTS
+    - I won't be flying
+    - Not flying unless you know something I don't know
+    - nah not this year
+    - no not going anywhere
+    - not going to see family this year
+    - I won't emit any carbon because I'm not traveling anywhere
+    - i'm not traveling
+    - I don't ever fly
+    - i don't fly
+    - I'm not flying.
+    - no I'm not traveling anywhere
+    - not going anywhere for thanksgiving
+    - no, I take the train

@@ -1,0 +1,266 @@
+version: "3.1"
+nlu:
+- intent: faq
+  examples: |
+    - Have you got high
+    - Because I know you like to send me these joke apps
+    - whats'up
+    - How are CERs generated?
+    - Do you speak in Spanish?
+    - What else can you tell me?
+    - I choose 9510
+    - okay which research team?
+    - so what can you do for me
+    - I don't want to buy offsets. I don't think climate change is a big problem
+    - Why didn't mean to send that stuff if in a few earlier conversations I thought you were my friend sending me jokes
+    - Meow meow meow
+    - I want to know if my train trip is bad for the environment
+    - What are you?
+    - How do I benefit from this?
+    - are you a bot?
+    - What is the answer to life, the universe, and everything?
+    - who is behind this?
+    - Climate change is debunked, it is a natural change that has been happening since the beginning of the planet
+    - what are you smiling about?
+    - any proof that it works?
+    - You're going to though
+    - are carbon offsets popular?
+    - Oh sure, I'd just love to waste my hard-earned money giving it to the biggest fraud of modern times, endorsed by a socialist UN that seeks a new world order run by religious fanatics - where do I sign? 😂😂😂😂👊
+    - Ceran's Monte Claro Run of River Hydropower Plant CDM Project Activity
+    - i want to love you
+    - who built you and why?
+    - where does the money go for the offsets?
+    - My name is Andre's gonzalez
+    - so, what can you do?
+    - help me
+    - How much carbon emission is 30 flights a year from London to New York?
+    - Does the company take any of the money I pay for offsets?
+    - What's the price?
+    - Who gets the money from the offsets?
+    - is this done now?
+    - Could you give me a QR code, so I can share you?
+    - Soo
+    - can you calculate the footprint of all my flights for the year?
+    - Is there any transparency?
+    - תל אביב
+    - What lies within the realm of you abilities, dear bot?
+    - A happy side effect for me would be to have the airlines buy offsets and pay back for all the damage caused past and present
+    - Who benefits monetarily from these offsets?
+    - hjmm
+    - Can you ask him please to fyling here do you watch underworld movie he in it
+    - Who controls these?
+    - What do you use the money from the sells of the offsets for?
+    - I'm curious what kind of research you are doing
+    - Surely u know if you ate drunk
+    - what are you going to do with this data?
+    - Are there cheaper options?
+    - Whats up?
+    - is that gonna be pricey?
+    - how much are those offsets going to cost?
+    - how are you
+    - Who made you?
+    - who built this?
+    - Test
+    - fasf
+    - what is your age
+    - but it's too late for the planet, why should i bother?
+    - fas
+    - ok tell me something about it
+    - Thanks anything else that you can do
+    - so, how much do i have to pay
+    - I'm not sure if I can  trust your knowledge of carbon offsetting
+    - Yes can you come with me please meet me in marietta Ohio
+    - alright anything else?
+    - So who gets the money made from these offsets?
+    - how are you doing
+    - let me know
+    - what would they do for me>?
+    - how much are they?
+    - Are there other alternatives?
+    - What can you help me with?
+    - what is the point of this
+    - There is no climate change asshole
+    - What is this
+    - what's the deal
+    - do you get a cut
+    - climate change isn't real
+    - So the passengers are paying more to help offset the damage airplanes are doing to the environment, yet the airlines themselves are not held accountable. Got it.
+    - HOLIDAY INN EXPRESS TO PORT MIAMI
+    - Who collects the money I spend on these offsets?
+    - how ya going?
+    - How much do they cost
+    - do people buy offsets?
+    - Can I purchase offsets for this project; San Clemente Hydroelectric Power Plant?
+    - Is there a publicaly available budget?
+    - how you doing?
+    - What if I have to fly for work?
+    - Why does the company not pay for the offsets?
+    - vai para o inferno
+    - Does it help to become a vegetarian?
+    - How is the weather like in New York?
+    - Please stop message him to flying here please
+    - Can u read
+    - Ok, Ill get project 697
+- intent: inform
+  examples: |
+    - united states
+    - Prgf
+    - IAD
+    - How much for New York Sidney
+    - Vantaa
+    - Sao Paulo
+    - burlingron, VT (btv)
+    - Nahi
+    - AOA
+    - Mannathan
+    - Hyd
+    - Los Angeles LAX (iata)
+    - Oh Darling lets you and me having fun together ❤ I love 💘 you
+    - what is the carbon cost of flying from seattle to frankfurt?
+    - Bad Tölz
+    - CPG
+    - Hello. I am flying from Boston to New York on Thanksgiving day at 1 p.m. and I would like to get information on about the carbon offsets of this flight.
+    - VCF
+    - Flight to Dubai
+    - from LED to PIT
+    - CVI
+    - Trichirappalli
+    - HRG
+    - bos
+- intent: vulgar
+  examples: |
+    - So you would like to pay me $10 for 1 minute of smelling my jungle bridge?
+    - Honestly i want climate change to happen faster kill all humans am i right
+    - The worms and the crabs are fighting over the mushrooms growing on my genital area
+- intent: insult
+  examples: |
+    - And your family pelosi
+    - dumb bot
+    - Then don't invade my phone with your adds
+    - you idiot!
+    - Junky
+    - Bernie Sanders communist v\nCocksuckers
+- intent: affirm
+  examples: |
+    - Absolutely!
+    - yes economy all the way
+    - always
+    - Okey
+    - obviously yes I'm not made of money
+    - ya sure
+    - Yeah it would be pretty expensive not to
+    - I would
+    - please do
+    - yes I will
+    - Okey nice
+    - Yes, but I'm travelling for christmas
+    - of course!
+    - Yep that be greaz
+    - k
+    - Defintiely!
+    - sure!
+    - i am
+    - Okay.
+    - i will
+    - I am interested
+    - i do not know the name of the airport in new york
+    - why not
+    - ok ok
+    - yeah!
+- intent: express_surprise
+  examples: |
+    - is that really right?
+    - that is messed up
+    - I don't buy it
+    - Oh that's where your name comes from! I thought you were built from carbon.
+- intent: estimate_emissions
+  examples: |
+    - Another flight
+    - i want to offset the carbon from my flights
+    - co2
+    - I have one more travel
+    - how much does this emit?
+    - How can I calculate it?
+    - Can I have the information on the flight to New York?
+    - what about the offsets
+    - I really don't care about CO2 emission because I travel less, only this time I require 2 flights
+    - Emissions
+    - what if I have to fly
+- intent: inform_notunderstanding
+  examples: |
+    - hellp
+    - speak to m
+    - Correct this :D
+    - What about the "more accurate estimate"?
+    - are you ther
+    - Where you going? I'm still curious where my payment goes.
+    - yes you said that
+- intent: deny
+  examples: |
+    - I'd prefer if you did that for me - I'm time poor.
+    - No no no. I just said I don't want to do anything else.
+    - go home
+    - don't think so
+    - I'm not going to read that
+    - I dont want to buy offsets
+- intent: deny_flying
+  examples: |
+    - As I said, I don't fly at all. I wish that the Liberal Hypocrites that claim to care about our Planet wouldn't fly in their private planes. That would be Huge
+    - no, I'm not flying
+- intent: farewell
+  examples: |
+    - please shut up
+    - end chat
+    - I guess we're done?
+    - gg
+- intent: express_uncertainty
+  examples: |
+    - I haven't decided yet. Do you partner with airlines?
+    - oh I'm not too sure if this is real or my friend sending me some funny thing but if this is real I didn't mean to send that
+- intent: inquire-ask_clarification
+  examples: |
+    - what is carbon offsets
+    - Can you give me more information?
+    - what are carbon offsets exactly
+- intent: why
+  examples: |
+    - tell me more here
+    - I don't see how that matters
+    - So what?
+    - Why?
+    - should i get carbon offsets for this flight>
+- intent: buy_offsets
+  examples: |
+    - i would like to donate
+    - how to buy
+- intent: express_positive-emo
+  examples: |
+    - welcome
+    - no problemo
+    - you're welcome
+    - about time.
+- intent: inquire-ask_clarification-offsets
+  examples: |
+    - How do I offset carbon footprint from air travel?
+    - Does that mean if I pay this, then the plane doesn't pollute the air?
+    - so how would that work
+    - how do I buy offsets?
+    - but is that actually equivalent to me staying at home?
+- intent: meta_inform_problem_bad-link
+  examples: |
+    - The link doesn't work
+    - that link didn't work
+- intent: thank
+  examples: |
+    - ta
+    - gracias
+- intent: how_calculated
+  examples: |
+    - can I check the math?
+- intent: greet
+  examples: |
+    - ih
+    - hallo?
+- intent: express_negative-emo
+  examples: |
+    - you are dreadful

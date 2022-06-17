@@ -1,0 +1,288 @@
+version: "2.0" 
+nlu:
+- intent: why
+  examples: |
+     - why should I pay?
+     - how is that important
+     - for what reason?
+     - why
+     - what for?
+     - why are you asking that?
+     - ok why though?
+     - what difference does it make?
+     - ok why should I do that?
+     - why should I be interested in that?
+     - why do you offer offsets?
+- intent: vulgar
+  examples: |
+     - faggots
+     - in the ass
+     - fart
+     - your mom does
+     - so does your sister
+     - suck
+     - cock
+     - asshole
+     - cum
+     - cunt
+     - blow
+     - yo mama did
+- intent: thank
+  examples: |
+     - great, thanks!
+     - thank you bot
+     - cheers thanks
+     - ok thank you
+     - cheers
+     - ok thanks for helping
+     - thank you so much
+     - thank you
+     - thanks
+     - cool thanks
+     - good bot
+     - oh ok thanks anyway
+- intent: restart
+  examples: |
+     - restart
+     - start over please
+     - back to the beginning
+     - start
+     - let's restart
+     - lets start fresh
+     - can we start again please
+     - start again
+     - start over
+- intent: meta_inform_problem_bad-lin
+  examples: | 
+     - webpage has been moved
+     - bad link
+     - the webpage does not exist
+     - your link does not work
+     - that link does not work for me
+     - that page has been moved
+- intent: insult
+  examples: |
+     - bitch
+     - fuck this
+     - fuck you
+     - you suck
+     - u suk
+     - fuck off
+     - shithead
+     - eat shit
+     - this sucks
+- intent: inquire-ask_clarification-offsets
+  examples: |
+     - do offsets really work?
+     - what do offsets do?
+     - what are they?
+     - what does buying offsets do?
+     - how much does it help the environment?
+     - tell me about carbon offsets
+     - does this actually work?
+     - what is the working principle?
+     - what is offsetting of emissions?
+     - what is the point of carbon offsets
+     - why buy offsets at all?
+- intent: inquire-ask_clarification
+  examples: |
+     - with what?
+     - how?
+     - how is that?
+     - what project?
+     - huh?
+     - why?
+     - what?
+     - how?
+     - really?
+     - like what?
+     - what is it?
+- intent: inform_notunderstanding
+  examples: |
+     - I really don't see how that is helping me
+     - are you there?
+     - I already answered that
+     - are you just giving random responses?
+     - aha good to know but not what I asked
+     - you are not well trained, bot
+     - I already told you
+     - no you're not getting me
+     - that does not answer my question
+     - do you know what you're saying?
+- intent: inform
+  examples: |
+     - I am going to new york
+     - I depart in Berlin
+     - Sevilla
+     - I fly with economy class
+     - I have relatives in michigan I will see them 
+     - from london
+     - I would like to depart from boston
+     - scottsdale
+     - the same
+     - boston to new york
+     - My conference is in Berlin, and i am flying from Detroit
+     - I am flying from Rome
+     - yes, economy class
+- intent: how_calculated
+  examples: |
+     - how is that calculated?
+     - how did you come up with those numbers?
+     - how did you get to that answer?
+     - how was that calculated?
+     - what is the math behind that?
+     - who did that calculation?
+     - where did you get that number from?
+     - what goes into that number?
+     - how do flight emissions get calculated?
+     - how is business class emission calculated?
+- intent: help
+  examples: |
+    - please help here
+    - what do I need to do?
+    - can you help me please?
+    - I do not understand
+    - help
+    - please help
+- intent: greet
+  examples: |
+    - hello
+    - hello there
+    - hi
+    - hi bot
+    - ola amigo
+    - hey
+    - good morning
+    - ahoy
+    - hi again
+    - hi there carbon bot
+    - yo!
+- intent: farewell
+  examples: |
+    - ok bye
+    - goodbye
+    - ciao
+    - stop
+    - thank you, bye
+    - bye for now
+    - bye bye
+    - have a nice day
+    - ok goodbye
+- intent: faq
+  examples: |
+    - is this legitimate?
+    - can I trust this website?
+    - Am I chatting with a human?
+    - Who gets the money from the purchase?
+    - so no one is making profit off of me?
+    - would it be better if I went by car?
+    - who are the major contributors?
+    - how much does a carbon offset cost?
+    - how does that compare to driving an SUV?
+    - What are the most important sources of greenhouse emissions?
+- intent: express_uncertainty
+  examples: |
+    - is that really true?
+    - I don't know yet
+    - sort of
+    - kinda
+    - I don't know
+    - I am not sure
+    - I have no idea
+    - possibly
+    - I guess
+    - Maybe
+    - Perhaps
+    - more or less
+- intent: express_surprise
+  examples: |
+    - how can it be so much?
+    - what the hell
+    - huh
+    - oh
+    - whoa
+    - wow that's a lot!
+    - damn
+    - I find that hard to believe
+    - wow is it that much?
+    - wow
+    - interesting!
+    - wow is it that much?
+- intent: express_positive-emo
+  examples: |
+    - fantastic
+    - great
+    - cool
+    - excellent
+    - nice
+    - haha nice
+    - you are ok
+    - you are suberb
+    - awesome!
+    - very cool!
+    - that is neat
+    - :) 
+- intent: express_negative-emo
+  examples: |
+    - :(
+    - sad
+    - sounds bad
+    - blah blah
+    - you were not helpful
+    - you are not nice
+    - you are dumb
+    - you are mediocre 
+- intent: estimate_emissions
+  examples: |
+    - give me a number
+    - calculate my offsetswhat is my offset    
+    - calculate
+    - how many pounds of carbon for a flight?    
+    - greenhouse gas calculation    
+    - Can you tell me on the effects on the environment
+- intent: deny_flying
+  examples: |
+    - nah not this year
+    - no flights 
+    - not travelling 
+    - not going anywhere for thanksgiving 
+    - not going anywhere 
+    - no not going
+    - no we are just going to stay at home
+- intent: deny
+  examples: | 
+    - no 
+    - nah thanks 
+    - No I would not 
+    - nah
+    - Uhg no
+    - nope 
+    - not really
+    - never 
+    - no not really
+- intent: buy_offsets
+  examples: | 
+    - I want to buy offsets 
+    - I would love to buy offsets yes 
+    - where can I buy those offsets? 
+    - Okay. Can I buy offsets then? 
+    - Buy Offsets 
+    - ok let's buy some offsets 
+    - Purchase Offsets 
+    - help buying offsets
+    - I will buy offsets then 
+- intent: affirm 
+  examples: |
+    - yes  
+    - I think so  
+    - sounds good  
+    - oh yeah that would be great  
+    - oh yes  
+    - perfect
+- intent: SCENARIO
+  examples: |
+    - Thanksgiving  
+    - Happy Thanksgiving  
+    - Christmas  
+    - Merry Christmas  
+    - Happy New Year 
